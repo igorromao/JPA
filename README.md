@@ -1,4 +1,4 @@
-Projeto usando JPA com Hibernate com objetivo de cadastro de academia
+Projeto usando JPA com Hibernate com objetivo de cadastro de GYM
   - Conexão com MySQL.
   - Junit usado para Teste.
   - Maven
