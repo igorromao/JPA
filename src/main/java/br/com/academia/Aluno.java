@@ -4,6 +4,14 @@ package br.com.academia;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+/**
+ * Centralizador de entidades.
+ * @author Igor Romão santos
+ * @version 1.0 - 16/11/21
+ * @since 16/11/21
+ */
+
+
 
 @Entity
 @Table(name = "aluno")
