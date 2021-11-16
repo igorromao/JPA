@@ -7,6 +7,12 @@ import util.JPAUtil;
 
 import javax.persistence.EntityManager;
 
+/**
+ * Centralizador de envio para entidade.
+ * @author Igor Romão Satnos
+ * @version 1.0 - 16/11/21
+ * @since 16/11/21
+ */
 
 public class CadastradoDeAluno {
 
