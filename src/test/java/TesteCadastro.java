@@ -6,6 +6,13 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
+/**
+ * Centralizador de teste.
+ * @author Igor Romão santos
+ * @version 1.0 - 16/11/21
+ * @since 16/11/21
+ */
+
 public class TesteCadastro {
 
 
