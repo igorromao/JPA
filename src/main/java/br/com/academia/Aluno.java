@@ -9,6 +9,7 @@ import java.time.LocalDate;
  * @author Igor Romão santos
  * @version 1.0 - 16/11/21
  * @since 16/11/21
+ * Teste
  */
 
 
@@ -65,13 +66,13 @@ public class Aluno {
     }
 
     public void validacao(String nome) throws Exception {
-        if (this.nome.equals(null) & this.nome.isEmpty()) {
+        if (nome.isEmpty()) {
             throw new Exception(" nome não pode ser nulo ou vazio");
         }
         if (idade == null) {
             throw new Exception(" idade não pode ser nula");
         }
-        if (endereco.equals(null) & endereco.isEmpty()) {
+        if (endereco.isEmpty()) {
             throw new Exception(" endereco não pode ser nulo ou vazio");
         }
         if (numero == null) {
